@@ -21,11 +21,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start1": "semantic-ui-css-patch && react-scripts start",
-    "build1": "semantic-ui-css-patch && react-scripts build",
-    "test1": "react-scripts test",
-    "eject1": "react-scripts eject",
-    "postinstall1": "semantic-ui-css-patch",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -48,6 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "https://merng--server.herokuapp.com/"
+  }
 }
