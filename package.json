@@ -21,11 +21,15 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "semantic-ui-css-patch && react-scripts start",
-    "build": "semantic-ui-css-patch && react-scripts build",
+    "start1": "semantic-ui-css-patch && react-scripts start",
+    "build1": "semantic-ui-css-patch && react-scripts build",
+    "test1": "react-scripts test",
+    "eject1": "react-scripts eject",
+    "postinstall1": "semantic-ui-css-patch",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "postinstall": "semantic-ui-css-patch"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
