@@ -40,7 +40,8 @@ const cache = new InMemoryCache({
 
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:5000/"
+  // uri: "http://localhost:5000/"
+  uri: "https://merng--server.herokuapp.com/"
 });
 
 
